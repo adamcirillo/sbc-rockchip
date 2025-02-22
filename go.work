@@ -13,5 +13,6 @@ use (
 	./installers/rock4se/src
 	./installers/rock5a/src
 	./installers/rock5b/src
+	./installers/rock5b-plus/src
 	./installers/turingrk1/src
 )
