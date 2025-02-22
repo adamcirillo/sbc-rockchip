@@ -21,9 +21,7 @@ jobs:
       issues: read
       packages: write
       pull-requests: read
-    runs-on:
-      - ubuntu-24.04-arm
-      - pkgs
+    runs-on: ubuntu-24.04-arm
     if: (!startsWith(github.head_ref, 'renovate/') && !startsWith(github.head_ref, 'dependabot/'))
     services:
       buildkitd:
